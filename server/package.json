@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server side for shopper app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raymond Flaherty",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/RayFlaherty/shopper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RayFlaherty/shopper/issues"
+  },
+  "homepage": "https://github.com/RayFlaherty/shopper#readme"
+}
