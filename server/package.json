@@ -1,19 +1,23 @@
 {
-  "name": "server",
+  "name": "shopper",
   "version": "1.0.0",
-  "description": "server side for shopper app",
-  "main": "index.js",
+  "description": "",
+  "main": "server",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "server.js"
   },
-  "author": "Raymond Flaherty",
-  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/RayFlaherty/shopper.git"
   },
+  "author": "Raymond Flaherty",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/RayFlaherty/shopper/issues"
   },
-  "homepage": "https://github.com/RayFlaherty/shopper#readme"
+  "homepage": "https://github.com/RayFlaherty/shopper#readme",
+  "dependencies": {
+    "mongoose": "^6.6.5"
+  }
 }
